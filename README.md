@@ -8,7 +8,12 @@ This project is a Springboot application with a single API to handle tool rental
 
 For the simplicity of the project, there is no backend database but most of the data is stored in-memory in form of key-value maps.
 
-To run the application, simply run TrmsApplication.java as a java application but make sure to setup the project as a Springboot project.
+### Instruction to run the application
+1. Download the project and setup as a Springboot application with Maven as the build tool
+
+2. Build the project with Maven (mvn clean install)
+
+3. Run the application as a Springboot application by simply clicking TrmsApplication.java and run as a java application.
 
 Here is the sample request and response for checkout request done using a REST client like PostMan.
 
